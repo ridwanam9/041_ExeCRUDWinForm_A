@@ -104,7 +104,7 @@ namespace exercise_crud_041
 
         private void Simpan_Click(object sender, EventArgs e)
         {
-            dt = exercise_pabdDataSet.Tables["empdetails"];
+            dt = exercise_pabdDataSet.Tables["Pegawai"];
             dr = dt.NewRow();
             dr[0] = textInduk.Text;
             dr[1] = textNama.Text;
